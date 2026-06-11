@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GNITS NRI Admission</title>
+<link rel="stylesheet" href="css/admission.css">
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+<header class="header">
+    <img src="pics/logo.jpg" alt="Logo" class="logo">
+    <h1 class="college-name">
+       <center> G. NARAYANAMMA INSTITUTE OF TECHNOLOGY AND SCIENCE</center>
+    </h1>
+</header>
+
+
+<div class="form-container">
+    <img src="pics/collage_header.png" alt="HEADER" class="logo1" width="550" height="150">
+<h2>Application for Admission into First Year B.Tech under Category-B (NRI/NRI Sponsored)</h2>
+
+<form method="POST" enctype="multipart/form-data">
+
+<!-- PERSONAL DETAILS -->
+
+<label style="text-align:left;">Name of the Applicant <span class="required">*</span></label>
+<input type="text" name="name" required 
+pattern="[A-Z ]{3,100}" 
+title="Enter name in CAPITAL LETTERS only"
+oninput="this.value = this.value.toUpperCase()"
+style="text-transform: uppercase;">
+
+<label style="text-align:left;">
+  Date of Birth <span class="required">*</span>
+</label>
+
+<input type="date" name="dob" id="dob" required onchange="validateAge()">
+
+
+<label style="text-align:left;">Father's Name <span class="required">*</span></label>
+<input type="text" name="father" required
+pattern="[A-Z ]{3,100}" 
+title="Enter name in CAPITAL LETTERS only"
+oninput="this.value = this.value.toUpperCase()"
+style="text-transform: uppercase;">
+
+<label style="text-align:left;">Mother's Name <span class="required">*</span></label>
+<input type="text" name="mother" required
+pattern="[A-Z ]{3,100}" 
+title="Enter name in CAPITAL LETTERS only"
+oninput="this.value = this.value.toUpperCase()"
+style="text-transform: uppercase;">
+
+<!-- NEW: Gender -->
+<label style="text-align:left;">Gender <span class="required">*</span></label>
+<select name="gender" required>
+    <option value="">Select</option>
+    <option value="F">Female</option>
+    <option value="M">Male</option>
+    <option value="O">Other</option>
+</select>
+
+<!-- NEW: Community -->
+<label style="text-align:left;">Community <span class="required">*</span></label>
+<select name="community" required>
+    <option value="">Select</option>
+    <option value="OC">OC</option>
+    <option value="EWS">EWS</option>
+    <option value="OBC">OBC</option>
+    <option value="BC_A">BC-A</option>
+    <option value="BC_B">BC-B</option>
+    <option value="BC_C">BC-C</option>
+    <option value="BC_D">BC-D</option>
+    <option value="BC_E">BC-E</option>
+    <option value="SC">SC</option>
+    <option value="ST">ST</option>
+</select>
+
+
+
+<label style="text-align:left;">Address for Communication <span class="required">*</span></label>
+<input type="text" name="address1" required placeholder="Address Line 1">
+<input type="text" name="address2" placeholder="Address Line 2">
+
+<input type="text" name="city" placeholder="City" required>
+<input type="text" name="state" placeholder="State" required>
+<input type="text" name="zip" placeholder="Zip Code" required>
+
+<select name="country" required>
+<option value="India">India</option>
+</select>
+
+<label style="text-align:left;">Email Address <span class="required">*</span></label>
+<input type="email" name="email" required>
+
+<label style="text-align:left;">Confirm Email Address <span class="required">*</span></label>
+<input type="email" name="confirm_email" required>
+
+<label style="text-align:left;">Aadhar (UID) No. <span class="required">*</span></label>
+<input type="text" name="aadhar" pattern="[0-9]{12}" required>
+
+<label style="text-align:left;">Mobile No. <span class="required">*</span></label>
+
+<div style="display:flex; gap:10px; align-items:center;">
+    
+    <!-- Area Code -->
+    <input type="text" name="area_code" required readonly
+    value="+91"
+    pattern="\+91"
+    title="Area code must be +91"
+    style="width:80px; text-align:center;">
+
+    <span>-</span>
+
+    <!-- Phone Number -->
+    <input type="text" name="mobile" required 
+    pattern="[6-9][0-9]{9}" 
+    maxlength="10"
+    title="Enter valid 10-digit number starting with 6-9"
+    style="flex:1;">
+</div>
+
+<hr>
+
+<h3>Qualifying Examination Passed (12th or Equivalent)</h3>
+
+<label style="text-align:left;">Name of the Board <span class="required">*</span></label>
+<select name="board" required>
+    <option value="">Select Board</option>
+
+    <optgroup label="Central Boards">
+        <option>CBSE</option>
+        <option>CISCE (ISC)</option>
+        <option>NIOS</option>
+    </optgroup>
+
+    <optgroup label="State Boards">
+        <option>BIEAP</option>
+        <option>TSBIE</option>
+        <option>MSBSHSE</option>
+        <option>TNBSE</option>
+        <option>PUC / PUE</option>
+        <option>DHSE</option>
+        <option>UPMSP</option>
+        <option>BSEB</option>
+        <option>WBCHSE</option>
+        <option>RBSE</option>
+        <option>PSEB</option>
+        <option>HBSE</option>
+        <option>MPBSE</option>
+        <option>CGBSE</option>
+        <option>CHSE</option>
+        <option>AHSEC</option>
+        <option>JAC</option>
+        <option>HPBOSE</option>
+        <option>UBSE</option>
+        <option>GBSHSE</option>
+        <option>TBSE</option>
+        <option>MBOSE</option>
+        <option>COHSEM</option>
+        <option>NBSE</option>
+        <option>MBSE</option>
+        <option>APBSE</option>
+        <option>SBSE</option>
+    </optgroup>
+</select>
+
+<label style="text-align:left;">Month & Year of Passing <span class="required">*</span></label>
+<input type="month" name="passing_year" required>
+
+<label style="text-align:left;">Total Marks(GRAND TOTAL) <span class="required">*</span></label>
+<input type="number" name="total_marks" required>
+
+<label style="text-align:left;">Total Group Marks (MPC) <span class="required">*</span></label>
+<input type="number" name="group_marks" required>
+<!-- NEW: Intermediate Details -->
+<label style="text-align:left;">Intermediate Hall Ticket Number <span class="required">*</span></label>
+<input type="text" name="intermediate_hall_ticket" required>
+
+<label style="text-align:left;">Intermediate Percentage <span class="required">*</span></label>
+<input type="number" step="0.01" name="inter_percentage" min="0" max="100" required>
+
+<label style="text-align:left;">Intermediate Group Percentage (MPC) <span class="required">*</span></label>
+<input type="number" step="0.01" name="inter_group_percentage" min="0" max="100" required>
+
+
+<hr>
+
+<h3>Select 5 Courses in Order of Preference</h3>
+
+<label style="text-align:left;">Preference 1 <span class="required">*</span></label>
+<select id="pref1" name="pref1" onchange="checkPreferences(event)" required>
+    <option value="">-- Select Preference 1 --</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+    <option value="ETM">ETM</option>
+    <option value="CSM">CSM</option>
+    <option value="CSD">CSD</option>
+    <option value="IT">IT</option>
+</select>
+
+<label style="text-align:left;">Preference 2 <span class="required">*</span></label>
+<select id="pref2" name="pref2" onchange="checkPreferences(event)" required>
+    <option value="">-- Select Preference 2 --</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+    <option value="ETM">ETM</option>
+    <option value="CSM">CSM</option>
+    <option value="CSD">CSD</option>
+    <option value="IT">IT</option>
+</select>
+
+<label style="text-align:left;">Preference 3 <span class="required">*</span></label>
+<select id="pref3" name="pref3" onchange="checkPreferences(event)" required>
+    <option value="">-- Select Preference 3 --</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+    <option value="ETM">ETM</option>
+    <option value="CSM">CSM</option>
+    <option value="CSD">CSD</option>
+    <option value="IT">IT</option>
+</select>
+
+<label style="text-align:left;">Preference 4 <span class="required">*</span></label>
+<select id="pref4" name="pref4" onchange="checkPreferences(event)" required>
+    <option value="">-- Select Preference 4 --</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+    <option value="ETM">ETM</option>
+    <option value="CSM">CSM</option>
+    <option value="CSD">CSD</option>
+    <option value="IT">IT</option>
+</select>
+
+<label style="text-align:left;">Preference 5 <span class="required">*</span></label>
+<select id="pref5" name="pref5" onchange="checkPreferences(event)" required>
+    <option value="">-- Select Preference 5 --</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+    <option value="ETM">ETM</option>
+    <option value="CSM">CSM</option>
+    <option value="CSD">CSD</option>
+    <option value="IT">IT</option>
+</select>
+
+<hr>
+
+ <label>Relationship with Sponsor:  <span class="required">*</span></label><br>
+    <input type="radio" name="relationship" value="Parent" required> Parent 
+    <input type="radio" name="relationship" value="Others"> Others
+    <br><br>
+
+    <label>Sponsor Name:<span class="required">*</span></label><br>
+    <input type="text" name="sponsor_name" required>
+    <br><br>
+
+    <label>Place / Country: <span class="required">*</span></label><br>
+    <select name="place_country" required>
+        <option value="">Select</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+    </select>
+    <br><br>
+
+   
+
+<label style="text-align:left;">Rank in TS-EAMCET </label>
+<input type="number" name="eamcet_rank">
+
+<hr>
+
+<h3>Upload Documents</h3>
+
+<label style="text-align:left;">Passport Photo (JPG/JPEG Max 200KB) <span class="required">*</span></label>
+<input type="file" name="photo" required accept="image/*"
+onchange="validateFile(this,200,'Photo')">
+
+<label style="text-align:left;">10th Marks Memo (PDF Max 300KB) <span class="required">*</span></label>
+<input type="file" name="tenth" required accept="application/pdf"
+onchange="validateFile(this,300,'10th Memo')">
+
+<label style="text-align:left;">Intermediate / 12th Memo (PDF Max 300KB) <span class="required" >*</span></label>
+<input type="file" name="inter" required accept="application/pdf"
+onchange="validateFile(this,300,'Intermediate Memo')">
+
+<label style="text-align:left;"> Passport/VISA of NRI (PDF Max 300KB) <span class="required">*</span></label>
+<input type="file" name="passport" required accept="application/pdf"
+onchange="validateFile(this,300,'Passport/VISA')">
+
+
+<label style="text-align:left;">TS-EAMCET Rank Card (PDF Max 300KB)</label>
+<input type="file" name="eamcet_card" accept="application/pdf"
+onchange="validateFile(this,300,'EAMCET Card')">
+
+<label style="text-align:left;">NRI Sponsership letter(PDF Max 300KB)</label>
+<input type="file" name="nri_letter" accept="application/pdf"
+onchange="validateFile(this,300,'NRI Letter')">
+<label style="text-align:left;">Address proof /Driving license of NRI(PDF Max 300KB)</label>
+<input type="file" name="nri_driving" accept="application/pdf"
+onchange="validateFile(this,300,'NRI Driving Proof')">
+
+
+<label style="text-align:left;">Scanned Signature of Applicant (JPG Max 200KB) <span class="required">*</span></label>
+<input type="file" name="stud_sign" required accept="image/*"
+onchange="validateFile(this,200,'Student Signature')">
+
+<label style="text-align:left;">Scanned Signature of Parent (JPG Max 200KB) <span class="required">*</span></label>
+<input type="file" name="parent_sign" required accept="image/*"
+onchange="validateFile(this,200,'Parent Signature')">
+<hr>
+
+<label>
+<input type="checkbox" name="declaration" required>
+DECLARATION: We hereby declare that all the information furnished above is true to the best of our knowledge. We are aware
+and give you an undertaking that our application form can summarily be rejected if any information provided is
+wrong
+</label>
+
+<br><br>
+
+<input type="radio" name="fee" value="1" required> 1 INR
+<p class="note">Pay Registration Fee through Payment Gateway to submit application.</p>
+
+<div class="button-group">
+
+    <!-- Preview Button -->
+    <button type="submit" name="preview" formaction="previewnri.php" class="preview-btn">
+        Preview Before Pay
+    </button>
+
+    <!-- Clear Form Button -->
+    <button type="reset" class="clear-btn">
+        Clear Form
+    </button>
+
+    <!-- Final Submit Button -->
+     
+      
+    <button type="submit" name="payment" formaction="nri_submit.php" class="submit-btn">
+        Pay and Submit
+    </button>
+</form>
+
+</div>
+
+
+</form>
+</div>
+<footer class="footer">
+    © G. Narayanamma Institute of Technology and Science
+</footer>
+<script>
+document.querySelector("form").addEventListener("submit", function(e) {
+
+    let email = document.querySelector("input[name='email']").value;
+    let confirm = document.querySelector("input[name='confirm_email']").value;
+
+    if (email !== confirm) {
+        alert("Email and Confirm Email do not match!");
+        e.preventDefault();
+        return;
+    }
+
+    let photo = document.querySelector("input[name='photo']").files[0];
+    if (photo && photo.size > 200000) {
+        alert("Photo must be less than 200KB");
+        e.preventDefault();
+        return;
+    }
+
+    let tenth = document.querySelector("input[name='tenth']").files[0];
+    if (tenth && tenth.size > 300000) {
+        alert("10th memo must be less than 300KB");
+        e.preventDefault();
+        return;
+    }
+
+});
+
+document.querySelector("form").addEventListener("submit", function(e) {
+
+    let name = document.querySelector("input[name='name']").value;
+
+    let pattern = /^[A-Z ]{3,100}$/;
+
+    if (!pattern.test(name)) {
+        alert("Name must be in BLOCK LETTERS (A-Z only)");
+        e.preventDefault();
+    }
+
+});
+
+document.querySelector("form").addEventListener("submit", function(e) {
+
+    let code = document.querySelector("input[name='area_code']").value;
+    let mobile = document.querySelector("input[name='mobile']").value;
+
+    if (code !== "+91") {
+        alert("Area code must be +91");
+        e.preventDefault();
+        return;
+    }
+
+    let pattern = /^[6-9][0-9]{9}$/;
+
+    if (!pattern.test(mobile)) {
+        alert("Invalid Mobile Number");
+        e.preventDefault();
+    }
+
+});
+
+function validateFile(input, maxKB, label){
+
+    let file = input.files[0];
+    if(!file) return;
+
+    let sizeKB = file.size / 1024;
+
+    // ✅ get file extension
+    let fileName = file.name.toLowerCase();
+    let ext = fileName.split('.').pop();
+
+    // ==========================
+    // SIZE CHECK
+    // ==========================
+    if(sizeKB > maxKB){
+        alert(label + " must be less than " + maxKB + "KB");
+        input.value = "";
+        return;
+    }
+
+    // ==========================
+    // TYPE CHECK (USING EXTENSION)
+    // ==========================
+    if(maxKB == 200){ // IMAGE
+        if(!['jpg','jpeg','png'].includes(ext)){
+            alert(label + " must be JPG/JPEG/PNG");
+            input.value = "";
+            return;
+        }
+    }
+
+    if(maxKB == 300){ // PDF
+        if(ext !== 'pdf'){
+            alert(label + " must be a PDF file");
+            input.value = "";
+            return;
+        }
+    }
+
+}
+
+function validateAge() {
+    let dob = document.getElementById("dob").value;
+
+    if (!dob) return;
+
+    let birthDate = new Date(dob);
+    let today = new Date();
+
+    let age = today.getFullYear() - birthDate.getFullYear();
+    let m = today.getMonth() - birthDate.getMonth();
+
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+
+    if (age < 15) {
+        alert("Age should be above 15 years");
+        document.getElementById("dob").value = "";
+    }
+}
+
+function checkPreferences(e) {
+    let prefs = [
+        document.getElementById("pref1").value,
+        document.getElementById("pref2").value,
+        document.getElementById("pref3").value,
+        document.getElementById("pref4").value,
+        document.getElementById("pref5").value
+    ];
+
+    // Remove empty values
+    let filledPrefs = prefs.filter(p => p !== "");
+
+    // Check duplicates
+    let uniquePrefs = [...new Set(filledPrefs)];
+
+    if (filledPrefs.length !== uniquePrefs.length) {
+        alert("Duplicate preferences are not allowed");
+
+        // Clear the last changed field
+        e.target.value = "";
+    }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,533 @@
+[14-Apr-2026 18:39:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'gnitsc79_gnits_user'@'localhost' (using password: YES) in /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php:7
+Stack trace:
+#0 /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php(7): mysqli->__construct('localhost', 'gnitsc79_gnits_...', Object(SensitiveParameterValue), 'gnitsc79_gnits_...')
+#1 /home2/gnitsc79/public_html/Mini_Project/jee_submit.php(5): include('/home2/gnitsc79...')
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php on line 7
+[14-Apr-2026 18:39:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'gnitsc79_gnits_user'@'localhost' (using password: YES) in /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php:7
+Stack trace:
+#0 /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php(7): mysqli->__construct('localhost', 'gnitsc79_gnits_...', Object(SensitiveParameterValue), 'gnitsc79_gnits_...')
+#1 /home2/gnitsc79/public_html/Mini_Project/jee_submit.php(5): include('/home2/gnitsc79...')
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php on line 7
+[14-Apr-2026 18:46:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'gnitsc79_gnitsc79'@'localhost' (using password: YES) in /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php:7
+Stack trace:
+#0 /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php(7): mysqli->__construct('localhost', 'gnitsc79_gnitsc...', Object(SensitiveParameterValue), 'gnitsc79_gnits_...')
+#1 /home2/gnitsc79/public_html/Mini_Project/jee_submit.php(5): include('/home2/gnitsc79...')
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php on line 7
+[14-Apr-2026 18:52:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'gnitsc79_gnitsc79'@'localhost' to database 'gnitsc79_gnits_db' in /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php:7
+Stack trace:
+#0 /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php(7): mysqli->__construct('localhost', 'gnitsc79_gnitsc...', Object(SensitiveParameterValue), 'gnitsc79_gnits_...')
+#1 /home2/gnitsc79/public_html/Mini_Project/jee_submit.php(5): include('/home2/gnitsc79...')
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php on line 7
+[14-Apr-2026 18:57:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'gnitsc79_gnitsc79'@'localhost' to database 'gnitsc79_gnits_db' in /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php:7
+Stack trace:
+#0 /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php(7): mysqli->__construct('localhost', 'gnitsc79_gnitsc...', Object(SensitiveParameterValue), 'gnitsc79_gnits_...')
+#1 /home2/gnitsc79/public_html/Mini_Project/jee_submit.php(9): include('/home2/gnitsc79...')
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/db/db_connect.php on line 7
+[14-Apr-2026 18:59:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'gender' in 'field list' in /home2/gnitsc79/public_html/Mini_Project/jee_submit.php:136
+Stack trace:
+#0 /home2/gnitsc79/public_html/Mini_Project/jee_submit.php(136): mysqli->prepare('INSERT INTO jee...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/jee_submit.php on line 136
+[14-Apr-2026 19:03:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home2/gnitsc79/public_html/Mini_Project/jee_submit.php:153
+Stack trace:
+#0 /home2/gnitsc79/public_html/Mini_Project/jee_submit.php(153): mysqli_stmt->bind_param('sssssssssssssss...', 'JEE_69de8f8c4b8...', 'SHANVITHA BORLA...', 'F', '2006-04-29', 'BORLAKUNTA RAYA...', 'BORLAKUNTA SYAM...', 'SC', 'Al hamra Colony', '', 'Hyderabad', 'Telangana', '500001', 'India', 'shanvitharaj06@...', 1, '452796277904', '6303436722', 'State Board', '2025-03', '1405236776', '90.78', '97.99', '986', '521', '745039428', '673321', '78.99', '8911273892', '50032', 'CSE', 'ECE', 'ETM', 'IT', 'CSD', '69de8f8c4b81d_1...', '69de8f8c4b948_1...', '69de8f8c4b9a8_1...', '69de8f8c4b9ee_1...', '69de8f8c4ba2f_1...', '69de8f8c4ba72_1...', '69de8f8c4bab8_1...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/jee_submit.php on line 153
+[14-Apr-2026 19:05:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home2/gnitsc79/public_html/Mini_Project/jee_submit.php:156
+Stack trace:
+#0 /home2/gnitsc79/public_html/Mini_Project/jee_submit.php(156): mysqli_stmt->bind_param('sssssssssssssss...', 'JEE_69de90132e3...', 'SHANVITHA BORLA...', 'F', '2006-04-29', 'BORLAKUNTA RAYA...', 'BORLAKUNTA SYAM...', 'SC', 'Al hamra Colony', '', 'Hyderabad', 'Telangana', '500001', 'India', 'shanvitharaj06@...', 1, '452796277904', '6303436722', 'State Board', '2025-03', '1405236776', '90.78', '97.99', '986', '521', '745039428', '673321', '78.99', '8911273892', '50032', 'CSE', 'ECE', 'ETM', 'IT', 'CSD', '69de90132e380_1...', '69de90132e53b_1...', '69de90132e5f3_1...', '69de90132e67a_1...', '69de90132e717_1...', '69de90132e79b_1...', '69de90132e82a_1...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/jee_submit.php on line 156
+[14-Apr-2026 19:07:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'JEE_69de9065615cb' for key 'jee.reference_no' in /home2/gnitsc79/public_html/Mini_Project/jee_submit.php:211
+Stack trace:
+#0 /home2/gnitsc79/public_html/Mini_Project/jee_submit.php(211): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/jee_submit.php on line 211
+[14-Apr-2026 19:19:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function upload() in /home2/gnitsc79/public_html/Mini_Project/nri_submit.php:97
+Stack trace:
+#0 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/nri_submit.php on line 97
+[14-Apr-2026 19:21:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function upload() in /home2/gnitsc79/public_html/Mini_Project/nri_submit.php:97
+Stack trace:
+#0 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/nri_submit.php on line 97
+[14-Apr-2026 19:27:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home2/gnitsc79/public_html/Mini_Project/nri_submit.php:129
+Stack trace:
+#0 /home2/gnitsc79/public_html/Mini_Project/nri_submit.php(129): mysqli->prepare('\r\nINSERT INTO n...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/nri_submit.php on line 129
+[14-Apr-2026 19:29:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home2/gnitsc79/public_html/Mini_Project/nri_submit.php:129
+Stack trace:
+#0 /home2/gnitsc79/public_html/Mini_Project/nri_submit.php(129): mysqli->prepare('\r\nINSERT INTO n...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/nri_submit.php on line 129
+[14-Apr-2026 19:31:31 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 3
+[14-Apr-2026 19:31:31 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php84/root/usr/share/pear') in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 3
+[14-Apr-2026 19:31:31 UTC] PHP Warning:  Undefined array key "ref" in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 5
+[14-Apr-2026 19:31:31 UTC] PHP Warning:  Undefined variable $conn in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 7
+[14-Apr-2026 19:31:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 7
+[14-Apr-2026 19:31:36 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 3
+[14-Apr-2026 19:31:36 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php84/root/usr/share/pear') in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 3
+[14-Apr-2026 19:31:36 UTC] PHP Warning:  Undefined array key "ref" in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 5
+[14-Apr-2026 19:31:36 UTC] PHP Warning:  Undefined variable $conn in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 7
+[14-Apr-2026 19:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 7
+[14-Apr-2026 19:34:08 UTC] PHP Warning:  Undefined array key "ref" in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 5
+[14-Apr-2026 19:34:08 UTC] PHP Warning:  Trying to access array offset on null in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 21
+[14-Apr-2026 19:34:08 UTC] PHP Warning:  Trying to access array offset on null in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 21
+[14-Apr-2026 19:34:08 UTC] PHP Warning:  Trying to access array offset on null in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 38
+[14-Apr-2026 19:34:08 UTC] PHP Warning:  Trying to access array offset on null in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 39
+[14-Apr-2026 19:34:08 UTC] PHP Warning:  Trying to access array offset on null in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 40
+[14-Apr-2026 19:39:17 UTC] PHP Warning:  Undefined array key "ref" in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 5
+[14-Apr-2026 19:46:46 UTC] PHP Warning:  Undefined array key "ref" in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 4
+[14-Apr-2026 19:46:46 UTC] PHP Warning:  Undefined array key "ref" in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 5
+[14-Apr-2026 19:47:22 UTC] PHP Warning:  Undefined array key "ref" in /home2/gnitsc79/public_html/Mini_Project/payu_payment_nri.php on line 4
+[15-Apr-2026 06:48:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/gnitsc79/public_html/login.php:8
+Stack trace:
+#0 /home2/gnitsc79/public_html/login.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gnits_db')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/login.php on line 8
+[15-Apr-2026 11:16:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/gnitsc79/public_html/login.php:8
+Stack trace:
+#0 /home2/gnitsc79/public_html/login.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gnits_db')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/login.php on line 8
+[15-Apr-2026 11:16:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/gnitsc79/public_html/login.php:8
+Stack trace:
+#0 /home2/gnitsc79/public_html/login.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gnits_db')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/login.php on line 8
+[15-Apr-2026 11:17:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/gnitsc79/public_html/jee_list.php:16
+Stack trace:
+#0 /home2/gnitsc79/public_html/jee_list.php(16): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gnits')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/jee_list.php on line 16
+[15-Apr-2026 11:17:59 UTC] PHP Warning:  require(lib/fpdf-master/fpdf.php): Failed to open stream: No such file or directory in /home2/gnitsc79/public_html/jee_pdf.php on line 2
+[15-Apr-2026 11:17:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/fpdf-master/fpdf.php' (include_path='.:/opt/cpanel/ea-php84/root/usr/share/pear') in /home2/gnitsc79/public_html/jee_pdf.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/gnitsc79/public_html/jee_pdf.php on line 2
+[15-Apr-2026 11:43:36 UTC] PHP Warning:  require(lib/fpdf-master/fpdf.php): Failed to open stream: No such file or directory in /home2/gnitsc79/public_html/download_pdf.php on line 3
+[15-Apr-2026 11:43:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/fpdf-master/fpdf.php' (include_path='.:/opt/cpanel/ea-php84/root/usr/share/pear') in /home2/gnitsc79/public_html/download_pdf.php:3
+Stack trace:
+#0 /home2/gnitsc79/public_html/payu_success_jee.php(5): require()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/download_pdf.php on line 3
+[15-Apr-2026 11:47:55 UTC] PHP Warning:  Undefined array key "reference_no" in /home2/gnitsc79/public_html/payu_success_jee.php on line 27
+[15-Apr-2026 12:46:59 UTC] PHP Warning:  require(lib/fpdf-master/fpdf.php): Failed to open stream: No such file or directory in /home2/gnitsc79/public_html/download_pdf.php on line 3
+[15-Apr-2026 12:46:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/fpdf-master/fpdf.php' (include_path='.:/opt/cpanel/ea-php84/root/usr/share/pear') in /home2/gnitsc79/public_html/download_pdf.php:3
+Stack trace:
+#0 /home2/gnitsc79/public_html/payu_success_jee.php(53): require()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/download_pdf.php on line 3
+[15-Apr-2026 13:07:17 UTC] PHP Warning:  require(lib/fpdf-master/fpdf.php): Failed to open stream: No such file or directory in /home2/gnitsc79/public_html/download_pdf.php on line 3
+[15-Apr-2026 13:07:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/fpdf-master/fpdf.php' (include_path='.:/opt/cpanel/ea-php84/root/usr/share/pear') in /home2/gnitsc79/public_html/download_pdf.php:3
+Stack trace:
+#0 /home2/gnitsc79/public_html/payu_success_jee.php(53): require()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/download_pdf.php on line 3
+[15-Apr-2026 13:09:23 UTC] PHP Warning:  require(/home2/gnitsc79/public_html/lib/fpdf-master/fpdf.php): Failed to open stream: No such file or directory in /home2/gnitsc79/public_html/download_pdf.php on line 2
+[15-Apr-2026 13:09:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gnitsc79/public_html/lib/fpdf-master/fpdf.php' (include_path='.:/opt/cpanel/ea-php84/root/usr/share/pear') in /home2/gnitsc79/public_html/download_pdf.php:2
+Stack trace:
+#0 /home2/gnitsc79/public_html/payu_success_jee.php(53): require()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/download_pdf.php on line 2
+[15-Apr-2026 13:10:35 UTC] PHP Warning:  Undefined variable $upload_dir in /home2/gnitsc79/public_html/payu_success_jee.php on line 99
+[15-Apr-2026 13:10:35 UTC] PHP Warning:  Undefined variable $upload_dir in /home2/gnitsc79/public_html/payu_success_jee.php on line 100
+[15-Apr-2026 13:10:35 UTC] PHP Warning:  Undefined variable $upload_dir in /home2/gnitsc79/public_html/payu_success_jee.php on line 101
+[15-Apr-2026 13:10:35 UTC] PHP Warning:  Undefined variable $upload_dir in /home2/gnitsc79/public_html/payu_success_jee.php on line 102
+[15-Apr-2026 13:10:35 UTC] PHP Warning:  Undefined variable $upload_dir in /home2/gnitsc79/public_html/payu_success_jee.php on line 104
+[15-Apr-2026 13:10:35 UTC] PHP Warning:  Undefined variable $upload_dir in /home2/gnitsc79/public_html/payu_success_jee.php on line 105
+[15-Apr-2026 13:10:35 UTC] PHP Warning:  Undefined variable $upload_dir in /home2/gnitsc79/public_html/payu_success_jee.php on line 106
+[15-Apr-2026 13:10:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on string in /home2/gnitsc79/public_html/download_pdf.php:41
+Stack trace:
+#0 /home2/gnitsc79/public_html/payu_success_jee.php(129): generateJeePdf(1, 'uploads/JEE8.pd...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/download_pdf.php on line 41
+[15-Apr-2026 13:15:07 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:2440
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(2231): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1851): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 15 A...', '--b1=_iBIkKJ1E3...')
+#2 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1668): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/gnitsc79/public_html/mail_helper.php(36): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home2/gnitsc79/public_html/payu_success_jee.php(233): sendMail('dheekshithajeed...', 'JEE Application...', '\r\n<h2>Payment S...', Array)
+#5 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 2440
+[15-Apr-2026 13:18:36 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:2271
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1851): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 15 A...', '--b1=_JJqF7q28Q...')
+#1 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1668): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home2/gnitsc79/public_html/mail_helper.php(36): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home2/gnitsc79/public_html/payu_success_jee.php(233): sendMail('dheekshithajeed...', 'JEE Application...', '\r\n<h2>Payment S...', Array)
+#4 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 2271
+[15-Apr-2026 13:18:36 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:2271
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1851): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 15 A...', '--b1=_w7aiHnH9v...')
+#1 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1668): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home2/gnitsc79/public_html/mail_helper.php(36): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home2/gnitsc79/public_html/payu_success_jee.php(233): sendMail('dheekshithajeed...', 'JEE Application...', '\r\n<h2>Payment S...', Array)
+#4 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 2271
+[15-Apr-2026 13:21:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function sendMail(), 2 passed in /home2/gnitsc79/public_html/payu_success_jee.php on line 233 and at least 3 expected in /home2/gnitsc79/public_html/mail_helper.php:8
+Stack trace:
+#0 /home2/gnitsc79/public_html/payu_success_jee.php(233): sendMail('dheekshithajeed...', 'JEE Application...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/mail_helper.php on line 8
+[15-Apr-2026 13:22:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function sendMail(), 2 passed in /home2/gnitsc79/public_html/payu_success_jee.php on line 233 and exactly 3 expected in /home2/gnitsc79/public_html/mail_helper.php:8
+Stack trace:
+#0 /home2/gnitsc79/public_html/payu_success_jee.php(233): sendMail('dheekshithajeed...', 'JEE Application...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/mail_helper.php on line 8
+[15-Apr-2026 13:23:40 UTC] PHP Warning:  Undefined variable $studentbody in /home2/gnitsc79/public_html/payu_success_jee.php on line 234
+[15-Apr-2026 13:23:40 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:1777
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home2/gnitsc79/public_html/mail_helper.php(36): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home2/gnitsc79/public_html/payu_success_jee.php(233): sendMail('dheekshithajeed...', 'JEE Application...', NULL)
+#3 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 1777
+[15-Apr-2026 14:37:42 UTC] PHP Warning:  Undefined variable $attachements in /home2/gnitsc79/public_html/payu_success_jee.php on line 240
+[15-Apr-2026 14:37:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gnitsc79/public_html/payu_success_jee.php:240) in /home2/gnitsc79/public_html/payu_success_jee.php on line 248
+[15-Apr-2026 14:39:40 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home2/gnitsc79/public_html/mail_helper.php on line 29
+[15-Apr-2026 14:39:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gnitsc79/public_html/mail_helper.php:29) in /home2/gnitsc79/public_html/payu_success_jee.php on line 248
+[15-Apr-2026 14:46:48 UTC] PHP Parse error:  syntax error, unexpected variable "$upload_dir", expecting "]" in /home2/gnitsc79/public_html/payu_success_jee.php on line 128
+[15-Apr-2026 14:50:22 UTC] PHP Parse error:  syntax error, unexpected variable "$upload_dir", expecting "]" in /home2/gnitsc79/public_html/payu_success_jee.php on line 128
+[15-Apr-2026 14:52:14 UTC] PHP Parse error:  syntax error, unexpected variable "$upload_dir", expecting "]" in /home2/gnitsc79/public_html/payu_success_jee.php on line 133
+[15-Apr-2026 16:01:33 UTC] PHP Warning:  Undefined variable $reference_no in /home2/gnitsc79/public_html/payu_success_nri.php on line 176
+[15-Apr-2026 16:01:33 UTC] PHP Warning:  Undefined variable $reference_no in /home2/gnitsc79/public_html/payu_success_nri.php on line 185
+[15-Apr-2026 16:01:33 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "Body" on null in /home2/gnitsc79/public_html/payu_success_nri.php:174
+Stack trace:
+#0 {main}
+  thrown in /home2/gnitsc79/public_html/payu_success_nri.php on line 174
+[15-Apr-2026 16:03:30 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "Body" on null in /home2/gnitsc79/public_html/payu_success_nri.php:174
+Stack trace:
+#0 {main}
+  thrown in /home2/gnitsc79/public_html/payu_success_nri.php on line 174
+[15-Apr-2026 16:47:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tenth' in 'field list' in /home2/gnitsc79/public_html/oci_submit.php:118
+Stack trace:
+#0 /home2/gnitsc79/public_html/oci_submit.php(118): mysqli->prepare('\r\nINSERT INTO o...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/oci_submit.php on line 118
+[15-Apr-2026 16:48:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'oci_card' in 'field list' in /home2/gnitsc79/public_html/oci_submit.php:118
+Stack trace:
+#0 /home2/gnitsc79/public_html/oci_submit.php(118): mysqli->prepare('\r\nINSERT INTO o...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/oci_submit.php on line 118
+[15-Apr-2026 16:50:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home2/gnitsc79/public_html/oci_submit.php:118
+Stack trace:
+#0 /home2/gnitsc79/public_html/oci_submit.php(118): mysqli->prepare('\r\nINSERT INTO o...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/oci_submit.php on line 118
+[15-Apr-2026 16:52:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tenth' in 'field list' in /home2/gnitsc79/public_html/oci_submit.php:118
+Stack trace:
+#0 /home2/gnitsc79/public_html/oci_submit.php(118): mysqli->prepare('\r\nINSERT INTO o...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/oci_submit.php on line 118
+[15-Apr-2026 16:52:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home2/gnitsc79/public_html/oci_submit.php:118
+Stack trace:
+#0 /home2/gnitsc79/public_html/oci_submit.php(118): mysqli->prepare('\r\nINSERT INTO o...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/oci_submit.php on line 118
+[15-Apr-2026 16:55:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home2/gnitsc79/public_html/oci_submit.php:118
+Stack trace:
+#0 /home2/gnitsc79/public_html/oci_submit.php(118): mysqli->prepare('\r\nINSERT INTO o...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/oci_submit.php on line 118
+[15-Apr-2026 16:57:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home2/gnitsc79/public_html/oci_submit.php:118
+Stack trace:
+#0 /home2/gnitsc79/public_html/oci_submit.php(118): mysqli->prepare('\r\nINSERT INTO o...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/oci_submit.php on line 118
+[15-Apr-2026 17:10:01 UTC] PHP Warning:  require(lib/fpdf-master/fpdf.php): Failed to open stream: No such file or directory in /home2/gnitsc79/public_html/jee_pdf.php on line 2
+[15-Apr-2026 17:10:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/fpdf-master/fpdf.php' (include_path='.:/opt/cpanel/ea-php84/root/usr/share/pear') in /home2/gnitsc79/public_html/jee_pdf.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/gnitsc79/public_html/jee_pdf.php on line 2
+[15-Apr-2026 17:24:59 UTC] PHP Warning:  Undefined array key "amount" in /home2/gnitsc79/public_html/jee_pdf.php on line 249
+[15-Apr-2026 17:24:59 UTC] PHP Warning:  Undefined array key "amount" in /home2/gnitsc79/public_html/jee_pdf.php on line 250
+[15-Apr-2026 17:24:59 UTC] PHP Warning:  Undefined array key "amount" in /home2/gnitsc79/public_html/jee_pdf.php on line 256
+[15-Apr-2026 17:26:47 UTC] PHP Warning:  Undefined array key "amount" in /home2/gnitsc79/public_html/jee_pdf.php on line 249
+[15-Apr-2026 17:26:47 UTC] PHP Warning:  Undefined array key "amount" in /home2/gnitsc79/public_html/jee_pdf.php on line 250
+[15-Apr-2026 17:26:47 UTC] PHP Warning:  Undefined array key "amount" in /home2/gnitsc79/public_html/jee_pdf.php on line 256
+[15-Apr-2026 18:30:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/gnitsc79/public_html/nri_approved.php:14
+Stack trace:
+#0 /home2/gnitsc79/public_html/nri_approved.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gnits')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/nri_approved.php on line 14
+[15-Apr-2026 18:38:13 UTC] PHP Parse error:  Unclosed '{' on line 23 in /home2/gnitsc79/public_html/jee_approved.php on line 173
+[15-Apr-2026 18:38:16 UTC] PHP Parse error:  Unclosed '{' on line 23 in /home2/gnitsc79/public_html/jee_approved.php on line 173
+[15-Apr-2026 18:41:45 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home2/gnitsc79/public_html/jee_approved.php on line 2
+[15-Apr-2026 18:41:49 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home2/gnitsc79/public_html/jee_approved.php on line 2
+[15-Apr-2026 18:41:55 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home2/gnitsc79/public_html/jee_approved.php on line 2
+[15-Apr-2026 18:45:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/gnitsc79/public_html/nri_approved.php:14
+Stack trace:
+#0 /home2/gnitsc79/public_html/nri_approved.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gnits')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/nri_approved.php on line 14
+[15-Apr-2026 18:45:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/gnitsc79/public_html/nri_approved.php:14
+Stack trace:
+#0 /home2/gnitsc79/public_html/nri_approved.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gnits')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/nri_approved.php on line 14
+[15-Apr-2026 18:50:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/gnitsc79/public_html/update_status.php:3
+Stack trace:
+#0 /home2/gnitsc79/public_html/update_status.php(3): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gnits')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/update_status.php on line 3
+[15-Apr-2026 18:57:11 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:1777
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home2/gnitsc79/public_html/update_status_nri.php(75): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 1777
+[15-Apr-2026 18:57:52 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:1777
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home2/gnitsc79/public_html/update_status_nri.php(75): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 1777
+[15-Apr-2026 18:58:32 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:1777
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home2/gnitsc79/public_html/update_status_nri.php(75): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 1777
+[15-Apr-2026 18:59:19 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:1777
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home2/gnitsc79/public_html/update_status_nri.php(78): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 1777
+[15-Apr-2026 19:00:37 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:1777
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home2/gnitsc79/public_html/update_status_nri.php(87): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 1777
+[15-Apr-2026 19:00:39 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:1777
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home2/gnitsc79/public_html/update_status_nri.php(87): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 1777
+[15-Apr-2026 19:01:54 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:1777
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home2/gnitsc79/public_html/update_status_nri.php(87): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 1777
+[15-Apr-2026 19:01:56 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php:1777
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home2/gnitsc79/public_html/update_status_nri.php(87): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home2/gnitsc79/public_html/lib/PHPMailer/src/PHPMailer.php on line 1777
+[15-Apr-2026 19:14:29 UTC] PHP Parse error:  Unmatched '}' in /home2/gnitsc79/public_html/update_status_nri.php on line 69
+[15-Apr-2026 19:16:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'branch' in 'field list' in /home2/gnitsc79/public_html/update_status_nri.php:40
+Stack trace:
+#0 /home2/gnitsc79/public_html/update_status_nri.php(40): mysqli->query('UPDATE nri SET ...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/update_status_nri.php on line 40
+[15-Apr-2026 19:18:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'branch' in 'field list' in /home2/gnitsc79/public_html/update_status_nri.php:40
+Stack trace:
+#0 /home2/gnitsc79/public_html/update_status_nri.php(40): mysqli->query('UPDATE nri SET ...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/update_status_nri.php on line 40
+[15-Apr-2026 19:22:03 UTC] PHP Warning:  Undefined variable $update in /home2/gnitsc79/public_html/update_status_nri.php on line 42
+[16-Apr-2026 09:44:23 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:44:23 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:44:23 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:44:23 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:44:23 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:44:23 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:44:23 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:44:23 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:44:23 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:47:11 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:47:11 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:47:11 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:47:11 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:47:11 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:47:11 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:47:11 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:47:11 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:47:11 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:48:16 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:48:16 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:48:16 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:48:16 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:48:16 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:48:16 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:48:16 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:48:16 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:48:16 UTC] PHP Warning:  Undefined variable $statusValue in /home2/gnitsc79/public_html/jee_list.php on line 387
+[16-Apr-2026 09:48:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'branch' in 'field list' in /home2/gnitsc79/public_html/resend_mail_jee.php:25
+Stack trace:
+#0 /home2/gnitsc79/public_html/resend_mail_jee.php(25): mysqli->prepare('SELECT name, em...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/resend_mail_jee.php on line 25
+[16-Apr-2026 09:53:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'branch' in 'field list' in /home2/gnitsc79/public_html/resend_mail_jee.php:25
+Stack trace:
+#0 /home2/gnitsc79/public_html/resend_mail_jee.php(25): mysqli->prepare('SELECT name, em...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/resend_mail_jee.php on line 25
+[16-Apr-2026 09:55:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'branch' in 'field list' in /home2/gnitsc79/public_html/resend_mail_jee.php:28
+Stack trace:
+#0 /home2/gnitsc79/public_html/resend_mail_jee.php(28): mysqli->prepare('SELECT name, em...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/resend_mail_jee.php on line 28
+[16-Apr-2026 09:56:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'alloted_branch' in 'field list' in /home2/gnitsc79/public_html/resend_mail_jee.php:28
+Stack trace:
+#0 /home2/gnitsc79/public_html/resend_mail_jee.php(28): mysqli->prepare('SELECT name, em...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/resend_mail_jee.php on line 28
+[17-Apr-2026 14:44:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/gnitsc79/public_html/jee_submit.php on line 13
+[17-Apr-2026 14:44:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function showPopup() in /home2/gnitsc79/public_html/jee_submit.php:129
+Stack trace:
+#0 {main}
+  thrown in /home2/gnitsc79/public_html/jee_submit.php on line 129
+[17-Apr-2026 14:47:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'sahasrabachu45@gmail.com' for column 'confirm_email' at row 1 in /home2/gnitsc79/public_html/jee_submit.php:236
+Stack trace:
+#0 /home2/gnitsc79/public_html/jee_submit.php(236): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/jee_submit.php on line 236
+[17-Apr-2026 14:59:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'sahasrabachu45@gmail.com' for key 'jee.email' in /home2/gnitsc79/public_html/jee_submit.php:237
+Stack trace:
+#0 /home2/gnitsc79/public_html/jee_submit.php(237): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/jee_submit.php on line 237
+[17-Apr-2026 15:15:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'sahasrabachu45@gmail.com' for key 'jee.email' in /home2/gnitsc79/public_html/jee_submit.php:237
+Stack trace:
+#0 /home2/gnitsc79/public_html/jee_submit.php(237): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/jee_submit.php on line 237
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "name" in /home2/gnitsc79/public_html/jee_submit.php on line 65
+[17-Apr-2026 15:35:38 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/gnitsc79/public_html/jee_submit.php on line 65
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "dob" in /home2/gnitsc79/public_html/jee_submit.php on line 66
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "father" in /home2/gnitsc79/public_html/jee_submit.php on line 67
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "mother" in /home2/gnitsc79/public_html/jee_submit.php on line 68
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "gender" in /home2/gnitsc79/public_html/jee_submit.php on line 70
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "community" in /home2/gnitsc79/public_html/jee_submit.php on line 71
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "zip" in /home2/gnitsc79/public_html/jee_submit.php on line 77
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "aadhar" in /home2/gnitsc79/public_html/jee_submit.php on line 83
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "mobile" in /home2/gnitsc79/public_html/jee_submit.php on line 84
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "board" in /home2/gnitsc79/public_html/jee_submit.php on line 86
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "passing_year" in /home2/gnitsc79/public_html/jee_submit.php on line 87
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "intermediate_hall_ticket" in /home2/gnitsc79/public_html/jee_submit.php on line 89
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "inter_percentage" in /home2/gnitsc79/public_html/jee_submit.php on line 90
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "inter_group_percentage" in /home2/gnitsc79/public_html/jee_submit.php on line 91
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "total_marks" in /home2/gnitsc79/public_html/jee_submit.php on line 93
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "group_marks" in /home2/gnitsc79/public_html/jee_submit.php on line 94
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "jee_hall_ticket" in /home2/gnitsc79/public_html/jee_submit.php on line 96
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "jee_rank" in /home2/gnitsc79/public_html/jee_submit.php on line 97
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "jee_percentile" in /home2/gnitsc79/public_html/jee_submit.php on line 98
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "eamcet_hall_ticket" in /home2/gnitsc79/public_html/jee_submit.php on line 100
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "eamcet_rank" in /home2/gnitsc79/public_html/jee_submit.php on line 101
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "pref1" in /home2/gnitsc79/public_html/jee_submit.php on line 103
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "pref2" in /home2/gnitsc79/public_html/jee_submit.php on line 104
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "pref3" in /home2/gnitsc79/public_html/jee_submit.php on line 105
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "pref4" in /home2/gnitsc79/public_html/jee_submit.php on line 106
+[17-Apr-2026 15:35:38 UTC] PHP Warning:  Undefined array key "pref5" in /home2/gnitsc79/public_html/jee_submit.php on line 107
+[18-Apr-2026 08:53:17 UTC] PHP Warning:  Undefined variable $confirm_email in /home2/gnitsc79/public_html/oci_submit.php on line 108
+[19-Apr-2026 17:04:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'nandinivelpula5@gmail.com' for key 'jee.email' in /home2/gnitsc79/public_html/jee_submit.php:237
+Stack trace:
+#0 /home2/gnitsc79/public_html/jee_submit.php(237): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/jee_submit.php on line 237
+[19-Apr-2026 17:10:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'nandinivelpula5@gmail.com' for column 'confirm_email' at row 1 in /home2/gnitsc79/public_html/jee_submit.php:236
+Stack trace:
+#0 /home2/gnitsc79/public_html/jee_submit.php(236): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/jee_submit.php on line 236
+[19-Apr-2026 17:15:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'nandinivelpula5@gmail.com' for key 'jee.email' in /home2/gnitsc79/public_html/jee_submit.php:236
+Stack trace:
+#0 /home2/gnitsc79/public_html/jee_submit.php(236): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/jee_submit.php on line 236
+[21-Apr-2026 12:08:52 UTC] PHP Parse error:  Unclosed '{' on line 355 in /home2/gnitsc79/public_html/jee_list.php on line 388
+[21-Apr-2026 12:08:55 UTC] PHP Parse error:  Unclosed '{' on line 355 in /home2/gnitsc79/public_html/jee_list.php on line 388
+[21-Apr-2026 12:08:57 UTC] PHP Parse error:  Unclosed '{' on line 355 in /home2/gnitsc79/public_html/jee_list.php on line 388
+[21-Apr-2026 12:27:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateJeePdf() in /home2/gnitsc79/public_html/resend_mail_jee.php:93
+Stack trace:
+#0 {main}
+  thrown in /home2/gnitsc79/public_html/resend_mail_jee.php on line 93
+[21-Apr-2026 12:34:34 UTC] PHP Warning:  Undefined array key "jee_rank" in /home2/gnitsc79/public_html/oci_list.php on line 391
+[21-Apr-2026 12:34:34 UTC] PHP Warning:  Undefined array key "jee_rank" in /home2/gnitsc79/public_html/oci_list.php on line 391
+[21-Apr-2026 12:35:33 UTC] PHP Warning:  Undefined array key "jee_rank" in /home2/gnitsc79/public_html/oci_list.php on line 391
+[21-Apr-2026 12:35:33 UTC] PHP Warning:  Undefined array key "jee_rank" in /home2/gnitsc79/public_html/oci_list.php on line 391
+[21-Apr-2026 12:37:15 UTC] PHP Warning:  Trying to access array offset on null in /home2/gnitsc79/public_html/download_pdf.php on line 45
+[21-Apr-2026 12:37:15 UTC] PHP Warning:  Trying to access array offset on null in /home2/gnitsc79/public_html/download_pdf.php on line 60
+[21-Apr-2026 12:37:15 UTC] PHP Warning:  Trying to access array offset on null in /home2/gnitsc79/public_html/download_pdf.php on line 75
+[21-Apr-2026 12:37:15 UTC] PHP Warning:  Trying to access array offset on null in /home2/gnitsc79/public_html/download_pdf.php on line 76
+[21-Apr-2026 12:37:15 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Image file has no extension and no type was specified: /home2/gnitsc79/public_html/uploads/ in /home2/gnitsc79/public_html/lib/FPDF-master/fpdf.php:267
+Stack trace:
+#0 /home2/gnitsc79/public_html/lib/FPDF-master/fpdf.php(881): FPDF->Error('Image file has ...')
+#1 /home2/gnitsc79/public_html/download_pdf.php(76): FPDF->Image('/home2/gnitsc79...', 155, 55, 35, 42)
+#2 /home2/gnitsc79/public_html/resend_mail_oci.php(95): generateJeePdf(2, Object(mysqli))
+#3 {main}
+  thrown in /home2/gnitsc79/public_html/lib/FPDF-master/fpdf.php on line 267
+[24-Apr-2026 16:27:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gnitsc79_gnits_db.admin' doesn't exist in /home2/gnitsc79/public_html/change_password.php:30
+Stack trace:
+#0 /home2/gnitsc79/public_html/change_password.php(30): mysqli->query('UPDATE admin SE...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/change_password.php on line 30
+[24-Apr-2026 16:29:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gnitsc79_gnits_db.admin' doesn't exist in /home2/gnitsc79/public_html/change_password.php:35
+Stack trace:
+#0 /home2/gnitsc79/public_html/change_password.php(35): mysqli->query('UPDATE admin SE...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/change_password.php on line 35
+[24-Apr-2026 16:32:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gnitsc79_gnits_db.admin' doesn't exist in /home2/gnitsc79/public_html/change_password.php:32
+Stack trace:
+#0 /home2/gnitsc79/public_html/change_password.php(32): mysqli->query('UPDATE admin SE...')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/change_password.php on line 32
+[25-Apr-2026 08:21:57 UTC] PHP Warning:  Undefined array key "payment_status" in /home2/gnitsc79/public_html/check_chatbot_status.php on line 21
+[27-Apr-2026 11:41:18 UTC] PHP Warning:  Undefined array key "photo" in /home2/gnitsc79/public_html/preview.php on line 60
+[27-Apr-2026 11:41:18 UTC] PHP Warning:  Undefined array key "tenth" in /home2/gnitsc79/public_html/preview.php on line 61
+[27-Apr-2026 11:41:18 UTC] PHP Warning:  Undefined array key "inter" in /home2/gnitsc79/public_html/preview.php on line 62
+[27-Apr-2026 11:41:18 UTC] PHP Warning:  Undefined array key "jee_card" in /home2/gnitsc79/public_html/preview.php on line 63
+[27-Apr-2026 11:41:18 UTC] PHP Warning:  Undefined array key "eamcet_card" in /home2/gnitsc79/public_html/preview.php on line 64
+[27-Apr-2026 11:41:18 UTC] PHP Warning:  Undefined array key "stud_sign" in /home2/gnitsc79/public_html/preview.php on line 65
+[27-Apr-2026 11:41:18 UTC] PHP Warning:  Undefined array key "parent_sign" in /home2/gnitsc79/public_html/preview.php on line 66
+[28-Apr-2026 14:34:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'eamcet_rank' at row 1 in /home2/gnitsc79/public_html/jee_submit.php:238
+Stack trace:
+#0 /home2/gnitsc79/public_html/jee_submit.php(238): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/jee_submit.php on line 238
+[02-May-2026 06:19:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/gnitsc79/public_html/insert_nri.php:8
+Stack trace:
+#0 /home2/gnitsc79/public_html/insert_nri.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gnits_db')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/insert_nri.php on line 8
+[03-May-2026 19:41:47 UTC] PHP Warning:  Undefined array key "photo" in /home2/gnitsc79/public_html/preview.php on line 60
+[03-May-2026 19:41:47 UTC] PHP Warning:  Undefined array key "tenth" in /home2/gnitsc79/public_html/preview.php on line 61
+[03-May-2026 19:41:47 UTC] PHP Warning:  Undefined array key "inter" in /home2/gnitsc79/public_html/preview.php on line 62
+[03-May-2026 19:41:47 UTC] PHP Warning:  Undefined array key "jee_card" in /home2/gnitsc79/public_html/preview.php on line 63
+[03-May-2026 19:41:47 UTC] PHP Warning:  Undefined array key "eamcet_card" in /home2/gnitsc79/public_html/preview.php on line 64
+[03-May-2026 19:41:47 UTC] PHP Warning:  Undefined array key "stud_sign" in /home2/gnitsc79/public_html/preview.php on line 65
+[03-May-2026 19:41:47 UTC] PHP Warning:  Undefined array key "parent_sign" in /home2/gnitsc79/public_html/preview.php on line 66
+[03-May-2026 19:41:49 UTC] PHP Warning:  Undefined array key "photo" in /home2/gnitsc79/public_html/previewnri.php on line 60
+[03-May-2026 19:41:49 UTC] PHP Warning:  Undefined array key "tenth" in /home2/gnitsc79/public_html/previewnri.php on line 61
+[03-May-2026 19:41:49 UTC] PHP Warning:  Undefined array key "inter" in /home2/gnitsc79/public_html/previewnri.php on line 62
+[03-May-2026 19:41:49 UTC] PHP Warning:  Undefined array key "passport" in /home2/gnitsc79/public_html/previewnri.php on line 63
+[03-May-2026 19:41:49 UTC] PHP Warning:  Undefined array key "eamcet_card" in /home2/gnitsc79/public_html/previewnri.php on line 64
+[03-May-2026 19:41:49 UTC] PHP Warning:  Undefined array key "nri_letter" in /home2/gnitsc79/public_html/previewnri.php on line 65
+[03-May-2026 19:41:49 UTC] PHP Warning:  Undefined array key "nri_driving" in /home2/gnitsc79/public_html/previewnri.php on line 66
+[03-May-2026 19:41:49 UTC] PHP Warning:  Undefined array key "stud_sign" in /home2/gnitsc79/public_html/previewnri.php on line 67
+[03-May-2026 19:41:49 UTC] PHP Warning:  Undefined array key "parent_sign" in /home2/gnitsc79/public_html/previewnri.php on line 68
+[03-May-2026 19:41:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/gnitsc79/public_html/insert_nri.php:8
+Stack trace:
+#0 /home2/gnitsc79/public_html/insert_nri.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gnits_db')
+#1 {main}
+  thrown in /home2/gnitsc79/public_html/insert_nri.php on line 8
