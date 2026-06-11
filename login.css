@@ -1,0 +1,232 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🌌 BODY WITH SUBTLE GRADIENT */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(120deg, #ffffff, #eef5f5);
+    overflow-x: hidden;
+}
+
+/* 🎓 HEADER (GLASS EFFECT) */
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    background: rgba(0, 61, 61, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    animation: slideDown 0.6s ease;
+}
+
+/* LOGO */
+.logo {
+    width: 80px;
+    position: absolute;
+    left: 30px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.logo:hover {
+    transform: scale(1.15) rotate(8deg);
+    box-shadow: 0 0 20px rgba(255,255,255,0.6);
+}
+
+/* COLLEGE NAME */
+.college-name {
+    margin: 0 auto;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    animation: floatText 3s ease-in-out infinite;
+}
+
+/* FLOAT TEXT */
+@keyframes floatText {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0); }
+}
+
+/* LOGIN BUTTON (GLOW EFFECT) */
+.login-top-btn {
+    position: absolute;
+    right: 30px;
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.login-top-btn:hover {
+    background: #ff7a00;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px orange;
+}
+
+/* 📦 MAIN LAYOUT */
+.main-container {
+    display: flex;
+    flex: 1;
+    animation: fadeIn 1s ease;
+}
+
+/* 📌 LEFT PANEL (GLASS CARD) */
+.left-frame {
+    width: 20%;
+    padding: 30px 20px;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(10px);
+    border-right: 3px solid orange;
+    box-shadow: 5px 0 20px rgba(0,0,0,0.1);
+    animation: slideLeft 0.8s ease;
+}
+
+.left-frame h3 {
+    margin-bottom: 20px;
+    color: #006400;
+}
+
+/* LINKS */
+.admission-link {
+    display: block;
+    margin-bottom: 15px;
+    padding: 12px;
+    background: white;
+    color: #006400;
+    border: 2px solid orange;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.admission-link:hover {
+    background: orange;
+    color: white;
+    transform: translateX(10px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* 📄 RIGHT PANEL */
+.right-frame {
+    width: 80%;
+    padding: 60px;
+    animation: slideRight 1s ease;
+}
+
+.right-frame h2 {
+    color: #006400;
+    margin-bottom: 20px;
+    font-size: 28px;
+    position: relative;
+}
+
+/* PREMIUM UNDERLINE */
+.right-frame h2::after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: orange;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.right-frame h2:hover::after {
+    width: 150px;
+}
+
+/* TEXT */
+.right-frame p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* ✨ FLOATING CARD EFFECT */
+.right-frame {
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* 🧾 LOGIN FORM ULTRA */
+.login-form {
+    width: 340px;
+    padding: 35px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.login-form:hover {
+    transform: translateY(-8px);
+}
+
+/* INPUTS */
+.input-group input {
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px orange;
+}
+
+/* BUTTON */
+.login-btn {
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    box-shadow: 0 0 20px orange;
+}
+
+/* 🦶 FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #003D3D;
+    color: white;
+    font-size: 14px;
+}
+
+/* 🎬 ANIMATIONS */
+@keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+@keyframes slideLeft {
+    from {transform:translateX(-50px); opacity:0;}
+    to {transform:translateX(0); opacity:1;}
+}
+
+@keyframes slideRight {
+    from {transform:translateX(50px); opacity:0;}
+    to {transform:translateX(0); opacity:1;}
+}
+
+@keyframes slideDown {
+    from {transform:translateY(-50px); opacity:0;}
+    to {transform:translateY(0); opacity:1;}
+}

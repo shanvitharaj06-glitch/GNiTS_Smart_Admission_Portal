@@ -1,0 +1,303 @@
+/* ===== PAGE BACKGROUND ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* ===== HEADER ===== */
+.header {
+    background: #ffffff;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.college-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* ===== CENTER FORM ===== */
+.form-container {
+    width: 50%;
+    max-width: 650px;
+    min-width: 400px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 35px 45px 35px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    
+    overflow: hidden;
+}
+.logo1 {
+    height: auto;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 15px;
+    margin:0 auto;
+}
+.label
+{
+    text-align: left;
+
+}
+
+/* ===== TITLE ===== */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* ===== LABELS ===== */
+form label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Red star */
+.required {
+    color: red;
+    font-weight: bold;
+}
+
+/* ===== INPUT FIELDS ===== */
+form input,
+form select {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s ease;
+    background-color: #fff;
+}
+
+/* Hover effect */
+form input:hover,
+form select:hover {
+    border-color: orange;
+}
+
+/* Focus effect */
+form input:focus,
+form select:focus {
+    border-color: orange;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255,165,0,0.4);
+}
+
+/* Help text */
+.form-text {
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+}
+
+/* File input */
+input[type="file"] {
+    padding: 5px;
+}
+
+/* Radio & checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+}
+
+/* ===== BUTTON SECTION ===== */
+.button-group {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button-group button {
+    padding: 9px 20px;
+    margin: 5px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+/* Preview */
+.preview-btn {
+    background: #6c757d;
+    color: white;
+}
+
+.preview-btn:hover {
+    background: orange;
+    transform: scale(1.05);
+}
+
+/* Clear */
+.clear-btn {
+    background: #dc3545;
+    color: white;
+}
+
+.clear-btn:hover {
+    background: orange;
+    transform: scale(1.05);
+}
+
+/* Submit */
+.submit-btn {
+    background: orange;
+    color: white;
+}
+
+.submit-btn:hover {
+    background: #e69500;
+    transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+    background: #ffffff;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+    font-size: 14px;
+    color: #555;
+}
+/* ===== BUTTON GROUP ===== */
+.button-group {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Common Button Style */
+.button-group button {
+    padding: 10px 22px;
+    margin: 5px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Preview Button (Orange) */
+.preview-btn {
+    background-color: orange;
+    color: white;
+}
+
+.preview-btn:hover {
+    background-color: #e69500;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(255,165,0,0.4);
+}
+
+/* Clear Button */
+.clear-btn {
+    background-color: #6c757d;
+    color: white;
+}
+
+.clear-btn:hover {
+    background-color: orange;
+    transform: scale(1.05);
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #006400;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: orange;
+    transform: scale(1.05);
+}
+/* ===== NEW FIELDS IMPROVEMENT ===== */
+
+/* Better spacing for grouped sections */
+h3 {
+    margin-top: 25px;
+    color: #444;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* Dropdown consistency */
+select {
+    cursor: pointer;
+}
+
+/* Gender & Community spacing */
+select[name="gender"],
+select[name="community"] {
+    background-color: #fdfdfd;
+}
+
+/* Hall ticket inputs highlight */
+input[name="jee_hall_ticket"],
+input[name="eamcet_hall_ticket"],
+input[name="intermediate_hall_ticket"] {
+    letter-spacing: 1px;
+}
+
+/* Percentage inputs alignment */
+input[name="inter_percentage"],
+input[name="inter_group_percentage"],
+input[name="jee_percentile"] {
+    text-align: right;
+}
+
+/* Section divider (hr improvement) */
+hr {
+    border: none;
+    height: 1px;
+    background: #eee;
+    margin: 30px 0;
+}
+
+/* Checkbox & declaration alignment */
+label input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Radio alignment */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Improve form responsiveness */
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+        min-width: unset;
+        padding: 25px;
+    }
+}
+
+/* Input error highlight (for future JS validation) */
+input:invalid,
+select:invalid {
+    border-color: #dc3545;
+}
+
+/* Success focus */
+input:valid,
+select:valid {
+    border-color: #28a745;
+}
